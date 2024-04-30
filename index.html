@@ -10,17 +10,16 @@
 
 <body>
     <section class="friendRequest flex justify-center align-center">
-        <div class="friends flex flex-column gap30 padding20">
-            <!-- <div class="absolute"></div> -->
-            <div class="title flex flex-row justify-between">
-                <b>Friend Requests</b>
+        <article class="friends flex flex-column gap30 padding20">
+            <header class="title flex flex-row justify-between">
+                <strong>Friend Requests</strong>
                 <small class="white">View All</small>
-            </div>
+            </header>
             <div class="friendList flex flex-column gap20">
                 <div class="friendInfo flex flex-row justify-between align-center ">
                     <div class="flex flex-row gap8 align-center">
                         <img src="https://images.unsplash.com/photo-1515987913882-11f2c427c484?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDV8dG93SlpGc2twR2d8fGVufDB8fHx8fA%3D%3D"
-                            alt="" class="img">
+                            alt="Jerome Williams" class="img">
                         <div class="flex flex-column gap0">
                             <p class="p1">Jerome Williams</p>
                             <small class="small">7 mutual friends</small>
@@ -31,7 +30,7 @@
                 <div class="friendInfo flex flex-row justify-between align-center ">
                     <div class="flex flex-row gap8 align-center">
                         <img src="https://images.unsplash.com/photo-1711881027254-e9ff3234d9d8?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D"
-                            alt="" class="img">
+                            alt="Sally Steele" class="img">
                         <div class="flex flex-column gap0">
                             <p class="p1">Sally Steele</p>
                             <small class="small">3 mutual friends</small>
@@ -42,7 +41,7 @@
                 <div class="friendInfo flex flex-row justify-between align-center ">
                     <div class="flex flex-row gap8 align-center">
                         <img src="https://images.unsplash.com/photo-1714120103575-7513850daf9c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE1fHRvd0paRnNrcEdnfHxlbnwwfHx8fHw%3D"
-                            alt="" class="img">
+                            alt="Rachel Ball" class="img">
                         <div class="flex flex-column gap0">
                             <p class="p1">Rachel Ball</p>
                             <small class="small">8 mutual friends</small>
@@ -51,7 +50,6 @@
                     <button class="btn">Confirm</button>
                 </div>
             </div>
-            <!-- <div class="absolute"></div> -->
             <div class="loginmess">
                 <div class="message">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color=" #14143b"
@@ -63,14 +61,17 @@
                             stroke-linejoin="round" />
                     </svg>
                     <p>You have Accepted a Request</p>
+
                 </div>
                 <div class="greenTimer"></div>
             </div>
-        </div>
+        </article>
         <div class="loader">
-            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+                type="module"></script>
 
-            <dotlottie-player src="https://lottie.host/bcb89d8f-1fb4-41c4-a9cf-49126470e190/ZwuzKysW5h.json" background="transparent" speed="1" class="loaderDiv" loop autoplay></dotlottie-player>
+            <dotlottie-player src="https://lottie.host/bcb89d8f-1fb4-41c4-a9cf-49126470e190/ZwuzKysW5h.json"
+                background="transparent" speed="1" class="loaderDiv" loop autoplay></dotlottie-player>
         </div>
     </section>
     <script src="script.js"></script>
